@@ -337,7 +337,7 @@ export default defineNuxtComponent({
             {
               name: "Cassandra",
               percentage: 90,
-            }
+            },
             {
               name: "InfluxDB",
               percentage: 80,
@@ -362,7 +362,7 @@ export default defineNuxtComponent({
             {
               name: "Kibana",
               percentage: 90,
-            }
+            },
             {
               name: "Apache Spark",
               percentage: 80,
