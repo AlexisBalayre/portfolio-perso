@@ -31,6 +31,12 @@ export default defineNuxtConfig({
               { rel: 'icon', sizes: '16x16', href: '/favicon-16x16.png' },
               { rel: 'manifest', href: '/site.webmanifest' },
               { rel: 'canonical', href: 'https://alexis.balayre.com/' },
+            ],
+            script: [
+              {
+                src: "https://cdn.jsdelivr.net/npm/alpinejs@3.13.0/dist/cdn.min.js",
+                defer: true,
+              }
             ]
         },
     },
