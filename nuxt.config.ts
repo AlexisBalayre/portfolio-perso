@@ -2,7 +2,7 @@ export default defineNuxtConfig({
     app: {
         pageTransition: { name: 'page', mode: 'out-in' },
         head: {
-            title: 'Alexis Balayre - Full Stack Web and Blockchain Developer | Data Engineer',
+            title: 'Alexis Balayre - Data Engineer | Full Stack Web and Blockchain Developer',
             htmlAttrs: {
               lang: 'en'
             },
@@ -12,8 +12,8 @@ export default defineNuxtConfig({
               { hid: 'description', name: 'description', content: 'Data engineer and full stack Web and Blockchain developer specialized in Web3 (Smart Contracts, DApp).', id:"__meta-description"  },
               { name: 'format-detection', content: 'telephone=no' },
               { hid: 'og:type', name: 'og:type', content: 'website' },
-              { hid: 'og:site_name', name: 'og:site_name', content: 'Alexis Balayre - Full Stack Web and Blockchain Developer | Data Engineer' },
-              { hid: 'og:title', name: 'og:title', content: 'Alexis Balayre - Full Stack Web and Blockchain Developer | Data Engineer' },
+              { hid: 'og:site_name', name: 'og:site_name', content: 'Alexis Balayre - Data Engineer | Full Stack Web and Blockchain Developer' },
+              { hid: 'og:title', name: 'og:title', content: 'Alexis Balayre - Data Engineer | Full Stack Web and Blockchain Developer' },
               { hid: 'og:description', name: 'og:description', content: 'Data engineer and full stack Web and Blockchain developer specialized in Web3 (Smart Contracts, DApp).', id:"__meta-og:description" },
               { hid: 'og:image', name: 'og:image', content: 'https://alexis.balayre.com/preview.png' },
               { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
