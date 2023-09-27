@@ -112,7 +112,7 @@
       <div class="justify-self-center mt-6">
         <div
           x-data="{
-        text: '',
+        text: 'Data Engineer',
         textArray : ['Data Engineer', 'Blockchain Developer', 'Full Stack Developer'],
         textIndex: 0,
         charIndex: 0,
@@ -175,9 +175,9 @@
         }, $data.cursorSpeed);
 
     })"
-          class="flex items-center justify-center mx-auto text-center max-w-7xl text-white"
+          class="flex items-center justify-center mx-auto text-center max-w-7xl text-white h-full"
         >
-          <div class="relative flex items-center justify-center h-auto">
+          <div class="relative flex items-center justify-center">
             <p class="text-2xl text-white leading-tight" x-text="text"></p>
             <span
               class="absolute right-0 w-2 -mr-2 bg-black h-3/4"
@@ -196,8 +196,7 @@
             >MSc in Computational and Software Techniques in Engineering -
             Computational Intelligence for Data Analytics</a
           >
-          at <a class="text-lg font-bold">Cranfield University</a>.
-          <br /><br />
+          at <a class="text-lg font-bold">Cranfield University</a>. <br /><br />
           I am also a
           <a class="text-lg font-bold">Full Stack Web</a> and<a
             class="text-lg font-bold"
@@ -208,7 +207,7 @@
           the missions related to the creation of a
           <a class="text-lg font-bold">decentralized application (DApp)</a> from
           <a class="text-lg font-bold">smart contracts</a> to the
-          <a class="text-lg font-bold">user interface</a>. 
+          <a class="text-lg font-bold">user interface</a>.
         </p>
       </div>
     </div>
@@ -494,7 +493,7 @@ export default defineNuxtComponent({
         title:
           'Cranfield University - <a class="underline decoration-sky-500 font-bold text-sky-400/100" href="https://www.cranfield.ac.uk/courses/taught/computational-intelligence-for-data-analytics" target="_blank">MSc in Computational and Software Techniques in Engineering</a>',
         description:
-          "Cranfield University is a renowned British postgraduate university located in Cranfield, Bedfordshire, England. I am currently specialising in Computational Intelligence for Data Analytics.",
+          "MSc at Cranfield University as part of a double degree programme with ISEP. <br/><br/> Cranfield University, located in the UK, is a distinguished public institution exclusively dedicated to postgraduate education and research. It boasts a specialization in science, engineering, technology, and management, holding the unique distinction of being the UK's sole postgraduate-only university. <br/><br/> Modules studied: <br/> - Machine Learning and Big Data <br/> - Artificial Intelligence <br/> - High Performance Technical Computing  <br/> - Cloud Computing <br/> - Small-Scale Parallel Programming <br/> - Management for Technology",
         period: "Sept. 2023 - Sept. 2024",
       },
       {
@@ -502,22 +501,22 @@ export default defineNuxtComponent({
         title:
           'ISEP - <a class="underline decoration-sky-500 font-bold text-sky-400/100" href="https://en.isep.fr/studying-at-isep/isep-engineering-master-degree/" target="_blank">Engineering Master Degree</a>',
         description:
-          "ISEP is a French digital engineering school located in Paris. I am currently specializing in data intelligence.",
+          "Engineering cycle at ISEP in Paris. Specialisation in Data Intelligence. <br/><br/> ISEP is a French digital engineering school located in Paris. It trains general engineers in the key fields of digital technology: IT & Cybersecurity - Electronics & Robotics - Telecommunications & Internet of Things - Imaging - Artificial Intelligence.",
         period: "2021 - 2024",
       },
       {
         logo: "cvut.png",
         title: "CVUT - Academic Semester Abroad",
         description:
-          "Academic semester in English at the Czech Technical University in Prague.",
+          "Academic semester in English at the Czech Technical University in Prague. <br/><br/> Modules studied: <br/> - Telecommunication Systems and Networks <br/> - Introduction to Cyber Security <br/> - Environmental Engineering  <br/> - Discrete mathematics <br/> - Programming <br/> - English",
         period: "Feb. 2021 - Jun. 2021",
       },
       {
         logo: "isep.png",
         title:
-          'ISEP - <a class="underline decoration-sky-500 font-bold text-sky-400/100" href="https://en.isep.fr/cii/" target="_blank">International Integrated Cycle</a>',
+          'ISEP - <a class="underline decoration-sky-500 font-bold text-sky-400/100" href="https://en.isep.fr/cii/" target="_blank">International Integrated Cycle (CII)</a>',
         description:
-          "Preparatory years at the ISEP engineering school in Paris.",
+          "Preparatory years at the ISEP engineering school in Paris. <br/><br/> The CII follows a programme specific to ISEP, balanced across three teaching areas: Fundamental Digital Sciences | Techniques & Technologies | Languages, Cultures, Humanities and Sustainable Development. It includes an international semester from the second year.",
         period: "2019 - 2021",
       },
       // Add more sample data here
