@@ -113,7 +113,7 @@
         <div
           x-data="{
         text: '',
-        textArray : ['Full Stack Developer', 'Data Engineer', 'Blockchain Developer'],
+        textArray : ['Data Engineer', 'Blockchain Developer', 'Full Stack Developer'],
         textIndex: 0,
         charIndex: 0,
         typeSpeed: 110,
@@ -189,17 +189,6 @@
       <div class="justify-self-center mt-6">
         <p class="text-lg text-left md:text-justify self-center text-white">
           My name is Alexis Balayre and I am a French
-          <a class="text-lg font-bold">full stack Web</a> and<a
-            class="text-lg font-bold"
-          >
-            Blockchain Developer</a
-          >
-          specialized in <a class="text-lg font-bold">Web3</a>. I realize all
-          the missions related to the creation of a
-          <a class="text-lg font-bold">decentralized application (DApp)</a> from
-          <a class="text-lg font-bold">smart contracts</a> to the
-          <a class="text-lg font-bold">user interface</a>. <br /><br />
-          I am also a
           <a class="text-lg font-bold">digital engineering</a> student
           specialising in <a class="text-lg font-bold">Data Intelligence</a>. I
           am currently doing an
@@ -208,6 +197,18 @@
             Computational Intelligence for Data Analytics</a
           >
           at <a class="text-lg font-bold">Cranfield University</a>.
+          <br /><br />
+          I am also a
+          <a class="text-lg font-bold">Full Stack Web</a> and<a
+            class="text-lg font-bold"
+          >
+            Blockchain Developer</a
+          >
+          specialized in <a class="text-lg font-bold">Web3</a>. I realize all
+          the missions related to the creation of a
+          <a class="text-lg font-bold">decentralized application (DApp)</a> from
+          <a class="text-lg font-bold">smart contracts</a> to the
+          <a class="text-lg font-bold">user interface</a>. 
         </p>
       </div>
     </div>
@@ -728,21 +729,42 @@ export default defineNuxtComponent({
     ],
     services: [
       {
+        id: 0,
+        title: "Data Analytics & Visualization",
+        description:
+          "Leverage the power of data to make informed decisions and gain a competitive edge with my data analytics and visualization services.",
+        icon: "chart-bar", // or ''
+      },
+      {
         id: 1,
+        title: "Data Science & Machine Learning",
+        description:
+          "Harness the power of data science and machine learning to gain valuable insights and make informed decisions.",
+        icon: "brain", // or 'chart-network'
+      },
+      {
+        id: 2,
+        title: "Pipeline Development & Automation",
+        description:
+          "Setting up data pipelines and automating data processing tasks to ensure the seamless flow of data across your organization.",
+        icon: "code", // or 'cog'
+      },
+      {
+        id: 3,
         title: "Advanced Smart Contract Expertise",
         description:
           "Delve into a comprehensive suite of services, including development, deployment, security testing, and gas optimization for high-performance smart contracts.",
         icon: "file-contract", // or 'scroll'
       },
       {
-        id: 2,
+        id: 4,
         title: "Customized NFT & Cryptocurrency Offerings",
         description:
           "Benefit from meticulously designed NFT collections and personalized cryptocurrencies, tailor-made to suit the unique requirements of each project.",
         icon: "coins", // or 'gem'
       },
       {
-        id: 3,
+        id: 5,
         title: "Cutting-Edge DApp, API & Blockchain Solutions",
         description:
           "Experience seamless integration through the development and implementation of decentralized applications, web/mobile apps, APIs, and sophisticated blockchain transaction tracing capabilities.",
