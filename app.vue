@@ -48,7 +48,7 @@
         <!-- Github -->
         <a
           class="lg:pl-4 lg:pr-4 lg-2 pr-2"
-          href="https://github.com/AlexisBal"
+          href="https://github.com/AlexisBalayre"
           target="_blank"
         >
           <svg
